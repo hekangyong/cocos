@@ -10,6 +10,6 @@ const { ccclass, property } = cc._decorator;
 @ccclass
 export default class Start extends cc.Component {
   handleStartBtn() {
-    cc.director.loadScene("Home");
+    cc.director.loadScene("GamePage");
   }
 }
